@@ -16,5 +16,5 @@ Two players (`A` and `B`) alternate turns picking tokens from either end of a li
 ## Build & Run
 
 ```bash
-gcc -std=c17 -O2 -Wall -Wextra -pedantic main.cpp -o tokens_solver
+gcc -std=c17 -O2 -Wall -pedantic Tokens.c -o tokens_solver
 ./tokens_solver
